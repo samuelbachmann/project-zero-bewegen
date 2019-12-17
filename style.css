@@ -56,14 +56,30 @@ h2{
 
 
 }
+.home{
+  margin-top: 2.6vh;
+  padding-left: 7%;
+}
 
-.contactlink{
+.projecten{
+  margin-top: 2.6vh;
+  padding-left: 12%;
+}
+
+.locaties{
+  margin-top: 2.6vh;
+  padding-left: 20%;
+}
+
+a{
   position: absolute;
   text-decoration: none;
   color: black;
-  margin-top: 2.5vh;
-  padding-left: 30px;
   font-family: roboto;
   font-style: normal;
   font-size: 20px;
+}
+.contactlink{
+  margin-top: 2.6vh;
+  padding-left: 30px;
 }
