@@ -14,19 +14,21 @@ body{
 nav{
   height: 8vh;
   background-color: #EEEEEE;
+  position: relative;
 
 }
 
 .logo{
-
+  /* margin-top: -2.6vh; */
   height: 8vh;
   width: 4%;
   background-color: white;
+  float: left;
 }
 
 .contact{
-  margin-left: 92%;
-
+  /* margin-top: -2.6vh; */
+  float: right;
   height: 8vh;
   width: 8%;
   background-color: white;
@@ -118,11 +120,10 @@ h3{
 
 .locaties{
   margin-top: 2.6vh;
-  padding-left: 20%;
+  padding-left: 12%;
 }
 
 a{
-
   text-decoration: none;
   color: black;
   font-family: roboto;
