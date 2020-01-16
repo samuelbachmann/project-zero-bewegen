@@ -73,7 +73,9 @@ h3{
 
 <------- navbar --------->
 
-
+.logo{
+  background-color: red;
+}
 .contactlink{
   padding-left: 30px;
 }
@@ -104,7 +106,4 @@ li a {
 li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
-}
-.home{
-  background-color: #eeeeee;
 }
