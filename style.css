@@ -69,6 +69,41 @@ h3{
   margin-top: 10vh;
 }
 
+
+<------- navbar --------->
+
+
 .contactlink{
   padding-left: 30px;
+} 
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #EEEE;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 28px 28px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+li a:hover {
+  background-color: #CAF1D3;
+  transition: 0.3s;
+}
+.home{
+  background-color: #eeeeee;
 }
