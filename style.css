@@ -71,7 +71,7 @@ h3{
 }
 
 
-<------- navbar --------->
+/* ------- navbar ---------> */
 
 
 .contactlink{
@@ -107,4 +107,8 @@ li a:hover {
 }
 .home{
   background-color: #eeeeee;
+}
+footer{
+  margin-top: 750px;
+
 }
