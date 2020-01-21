@@ -107,13 +107,21 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
-<<<<<<< HEAD
 .home{
   background-color: #eeeeee;
 }
 footer{
-  margin-top: 750px;
+  margin-top: 120vh;
+  background-color: #d6d6d6;
+  height: 15vh;
+  font-size: 19px;
+  font-family: roboto;
 
 }
-=======
->>>>>>> 8b48c85696d40616da5bb553390d8c4354e916ed
+.logovlak{
+  width: 10%;
+  padding-top: 10%;
+  background-color: red;
+  margin-top: -25vh;
+  margin-left: 
+}
