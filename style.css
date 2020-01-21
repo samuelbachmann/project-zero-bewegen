@@ -54,27 +54,13 @@ article{
   font-size: 25px;
   font-family: Roboto;
   margin-top: 25vh;
-  width: 100%;
+  width: 75%;
   height: 80vh;
 }
 
-.opdrachten{
-  padding-left: 22.5% ;
-  padding-top: 20vh;
-}
-
-.right{
-  position: absolute;
-  padding-top: 1vh;
-  padding-left: 10%;
-  width: 45%;
-}
-
-.left{
-  position: absolute;
-  padding-top: 1vh;
-  padding-left: 50%;
-  /* width: 40%; */
+.infotekst{
+  padding-left: 25%;
+  line-height: 40px;
 }
 
 
@@ -115,4 +101,20 @@ li a {
 li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
+}
+
+
+
+
+#titellocatie{
+  padding-top: 20vh;
+  padding-right: 40%;
+}
+
+.home{
+  background-color: #eeeeee;
+}
+footer{
+  margin-top: 750px;
+
 }
