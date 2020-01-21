@@ -73,7 +73,9 @@ h3{
 
 /* ------- navbar ---------> */
 
-
+.logo{
+  background-color: red;
+}
 .contactlink{
   padding-left: 30px;
 }
@@ -105,6 +107,7 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
+<<<<<<< HEAD
 .home{
   background-color: #eeeeee;
 }
@@ -112,3 +115,5 @@ footer{
   margin-top: 750px;
 
 }
+=======
+>>>>>>> 8b48c85696d40616da5bb553390d8c4354e916ed
