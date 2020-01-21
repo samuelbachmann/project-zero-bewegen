@@ -71,7 +71,7 @@ h3{
 }
 
 
-<------- navbar --------->
+/* ------- navbar ---------> */
 
 .logo{
   background-color: red;
@@ -109,8 +109,17 @@ li a:hover {
 }
 
 
-<------------->
+
+
 #titellocatie{
   padding-top: 20vh;
   padding-right: 40%;
+}
+
+.home{
+  background-color: #eeeeee;
+}
+footer{
+  margin-top: 750px;
+
 }
