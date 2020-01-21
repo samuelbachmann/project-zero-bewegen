@@ -58,6 +58,11 @@ article{
   height: 80vh;
 }
 
+.opdrachten{
+  padding-top:30vh ;
+  padding-left:22.5% ;
+}
+
 .infotekst{
   padding-left: 25%;
   line-height: 40px;
