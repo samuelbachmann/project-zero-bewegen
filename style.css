@@ -26,6 +26,8 @@ header{
   margin-top: 5%;
 }
 
+/* -------teksten------- */
+
 h1{
   position: absolute;
   font-family: roboto;
@@ -40,19 +42,6 @@ h2{
   padding-left: 10%;
 }
 
-article{
-  font-size: 25px;
-  font-family: Roboto;
-  margin-top: 25vh;
-  width: 75%;
-  height: 80vh;
-}
-
-.infotekst{
-  padding-left: 25%;
-  line-height: 40px;
-}
-
 h3{
   font-family: roboto;
   font-size: 70px;
@@ -61,8 +50,28 @@ h3{
   margin-top: 10vh;
 }
 
+article{
+  font-size: 25px;
+  font-family: Roboto;
+  margin-top: 25vh;
+  width: 75%;
+  height: 80vh;
+}
 
-/* ------- navbar ---------> */
+.opdrachten{
+  padding-top:30vh ;
+  padding-left:22.5% ;
+}
+
+.infotekst{
+  padding-left: 25%;
+  line-height: 40px;
+}
+
+
+
+
+/*------- navbar ---------*/
 
 .logo{
   background-color: red;
