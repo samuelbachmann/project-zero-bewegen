@@ -68,7 +68,6 @@ article{
   line-height: 40px;
 }
 
-
 h3{
   font-family: roboto;
   font-size: 70px;
@@ -128,16 +127,18 @@ li a:hover {
 
 }
 
-
 .titellocatie{
   padding-top: 15vh;
   padding-left: 37%;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
+=======
+>>>>>>> e0e90664e09302d5d06880d31400b09ebedde5bf
 .home{
   background-color: #eeeeee;
 }
