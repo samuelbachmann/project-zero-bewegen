@@ -116,8 +116,6 @@ li a:hover {
   transition: 0.3s;
 }
 
-
-
 .oosterparkmap{
   margin-top: 32vh;
   margin-left: 10%;
@@ -130,21 +128,25 @@ li a:hover {
   padding-left: 37%;
 }
 
+
 .home{
   background-color: #eeeeee;
 }
 footer{
-  margin-top: 120vh;
   background-color: #d6d6d6;
-  height: 15vh;
+  height: 25vh;
   font-size: 19px;
   font-family: roboto;
+  margin-top: 70vh;
 
 }
+
 .logovlak{
-  width: 10%;
-  padding-top: 10%;
+  width: 6%;
+  padding-top: 6%;
   background-color: red;
+  margin-top: 65vh;
+  margin-left: 10vh;
+  position: absolute;
   margin-top: -25vh;
-  /* margin-left: */
 }
