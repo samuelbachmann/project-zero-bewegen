@@ -107,8 +107,7 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
-<<<<<<< HEAD
-=======
+
 
 
 
@@ -118,25 +117,22 @@ li a:hover {
   padding-right: 40%;
 }
 
->>>>>>> 2e4a023bd0e7887d260c82ed7bb79ebd0c400645
 .home{
   background-color: #eeeeee;
 }
 footer{
-  margin-top: 120vh;
   background-color: #d6d6d6;
-  height: 15vh;
+  height: 25vh;
   font-size: 19px;
   font-family: roboto;
+  margin-top: 70vh;
 
 }
-<<<<<<< HEAD
 .logovlak{
-  width: 10%;
-  padding-top: 10%;
+  width: 6%;
+  padding-top: 6%;
   background-color: red;
-  margin-top: -25vh;
-  margin-left: 
+  margin-top: 65vh;
+  margin-left: 10vh;
+  position: absolute;
 }
-=======
->>>>>>> 2e4a023bd0e7887d260c82ed7bb79ebd0c400645
