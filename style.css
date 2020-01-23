@@ -115,9 +115,12 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 
 .oosterparkmap{
   margin-top: 32vh;
@@ -131,6 +134,10 @@ li a:hover {
   padding-left: 37%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 .home{
   background-color: #eeeeee;
 }
@@ -142,6 +149,10 @@ footer{
   margin-top: 70vh;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 .logovlak{
   width: 6%;
   padding-top: 6%;
@@ -150,5 +161,8 @@ footer{
   margin-left: 10vh;
   position: absolute;
   margin-top: -25vh;
+<<<<<<< HEAD
   margin-left:
+=======
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 }
