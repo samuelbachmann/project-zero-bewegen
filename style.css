@@ -53,7 +53,7 @@ h3{
 article{
   font-size: 25px;
   font-family: Roboto;
-  margin-top: 25vh;
+  margin-top: 30vh;
   width: 75%;
   height: 80vh;
 }
@@ -64,10 +64,18 @@ article{
 }
 
 .infotekst{
-  padding-left: 25%;
+  padding-left: 33%;
   line-height: 40px;
 }
 
+
+h3{
+  font-family: roboto;
+  font-size: 70px;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 15vh;
+}
 
 
 
@@ -108,9 +116,18 @@ li a:hover {
   transition: 0.3s;
 }
 
-#titellocatie{
-  padding-top: 20vh;
-  padding-right: 40%;
+
+
+.oosterparkmap{
+  margin-top: 32vh;
+  margin-left: 10%;
+
+}
+
+
+.titellocatie{
+  padding-top: 15vh;
+  padding-left: 37%;
 }
 
 .home{
@@ -129,4 +146,5 @@ footer{
   padding-top: 10%;
   background-color: red;
   margin-top: -25vh;
+  /* margin-left: */
 }
