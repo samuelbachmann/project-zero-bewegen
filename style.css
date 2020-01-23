@@ -147,3 +147,91 @@ footer{
   position: absolute;
   margin-top: -25vh;
 }
+
+
+
+
+
+.container {
+  padding-top: 35vh;
+  padding-left: 5.5%;
+  position: relative;
+  width: 62%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 8.9%;
+  right: 0;
+  background-color: #EEE;
+  overflow: hidden;
+  width: 63.1%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 60%;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: roboto;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.buttonvoormap{
+  text-align: center;
+  text-decoration: none;
+  background-color: #CAF1D3;
+  height: 6vh;
+  width: 20%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .oosterparkfoto{
+  padding-top: 35vh;
+  padding-left: 5.5%;
+
+}
+
+.amstelparkfoto{
+  padding-top: 35vh;
+  padding-left: 10%;
+} */
