@@ -26,6 +26,8 @@ header{
   margin-top: 5%;
 }
 
+/* -------teksten------- */
+
 h1{
   position: absolute;
   font-family: roboto;
@@ -40,6 +42,14 @@ h2{
   padding-left: 10%;
 }
 
+h3{
+  font-family: roboto;
+  font-size: 70px;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 10vh;
+}
+
 article{
   font-size: 25px;
   font-family: Roboto;
@@ -48,10 +58,16 @@ article{
   height: 80vh;
 }
 
+.opdrachten{
+  padding-top:30vh ;
+  padding-left:22.5% ;
+}
+
 .infotekst{
   padding-left: 33%;
   line-height: 40px;
 }
+
 
 h3{
   font-family: roboto;
@@ -62,7 +78,8 @@ h3{
 }
 
 
-/* ------- navbar ---------> */
+
+/*------- navbar ---------*/
 
 .logo{
   background-color: red;
@@ -100,6 +117,7 @@ li a:hover {
 }
 
 
+
 .oosterparkmap{
   margin-top: 32vh;
   margin-left: 10%;
@@ -112,10 +130,23 @@ li a:hover {
   padding-left: 37%;
 }
 
+
 .home{
   background-color: #eeeeee;
 }
 footer{
-  margin-top: 750px;
+  margin-top: 120vh;
+  background-color: #d6d6d6;
+  height: 15vh;
+  font-size: 19px;
+  font-family: roboto;
 
+}
+
+.logovlak{
+  width: 10%;
+  padding-top: 10%;
+  background-color: red;
+  margin-top: -25vh;
+  margin-left:
 }
