@@ -185,10 +185,12 @@ footer{
 }
 
 .text {
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: roboto;
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -197,7 +199,20 @@ footer{
 }
 
 
-
+.buttonvoormap{
+  text-align: center;
+  text-decoration: none;
+  background-color: #CAF1D3;
+  height: 6vh;
+  width: 20%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
 
