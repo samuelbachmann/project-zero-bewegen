@@ -68,7 +68,6 @@ article{
   line-height: 40px;
 }
 
-
 h3{
   font-family: roboto;
   font-size: 70px;
@@ -115,6 +114,12 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 
 .oosterparkmap{
   margin-top: 32vh;
@@ -122,13 +127,18 @@ li a:hover {
 
 }
 
-
 .titellocatie{
   padding-top: 15vh;
   padding-left: 37%;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
+=======
+>>>>>>> e0e90664e09302d5d06880d31400b09ebedde5bf
 .home{
   background-color: #eeeeee;
 }
@@ -140,7 +150,10 @@ footer{
   margin-top: 70vh;
 
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 .logovlak{
   width: 6%;
   padding-top: 6%;
@@ -149,6 +162,10 @@ footer{
   margin-left: 10vh;
   position: absolute;
   margin-top: -25vh;
+<<<<<<< HEAD
+  margin-left:
+=======
+>>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 }
 
 
