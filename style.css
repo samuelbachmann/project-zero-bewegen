@@ -114,12 +114,7 @@ li a:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 
 .oosterparkmap{
   margin-top: 32vh;
@@ -132,13 +127,7 @@ li a:hover {
   padding-left: 37%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
-=======
->>>>>>> e0e90664e09302d5d06880d31400b09ebedde5bf
 .home{
   background-color: #eeeeee;
 }
@@ -150,10 +139,7 @@ footer{
   margin-top: 70vh;
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 .logovlak{
   width: 6%;
   padding-top: 6%;
@@ -162,10 +148,7 @@ footer{
   margin-left: 10vh;
   position: absolute;
   margin-top: -25vh;
-<<<<<<< HEAD
   margin-left:
-=======
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 }
 
 
@@ -187,23 +170,22 @@ footer{
 
 .overlay {
   position: absolute;
-  top: 40%;
   bottom: 0;
-  left: 8.8%;
+  left: 8.9%;
   right: 0;
-  height: 60%;
-  width: 63.1%;
-  opacity: 0;
-  transition: .5s ease;
   background-color: #EEE;
+  overflow: hidden;
+  width: 63.1%;
+  height: 0;
+  transition: .5s ease;
 }
 
 .container:hover .overlay {
-  opacity: 3;
+  height: 60%;
 }
 
 .text {
-  color: black;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
