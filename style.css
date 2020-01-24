@@ -55,7 +55,7 @@ article{
   font-family: Roboto;
   margin-top: 30vh;
   width: 75%;
-  height: 80vh;
+
 }
 
 .opdrachten{
@@ -100,7 +100,7 @@ li {
   float: left;
 }
 
-li a {
+li .niet_foeter {
   display: block;
   color: black;
   text-align: center;
@@ -110,16 +110,10 @@ li a {
   font-weight: 400;
 }
 
-li a:hover {
+li .niet_foeter:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 
 .oosterparkmap{
   margin-top: 32vh;
@@ -132,38 +126,50 @@ li a:hover {
   padding-left: 37%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
-=======
->>>>>>> e0e90664e09302d5d06880d31400b09ebedde5bf
 .home{
   background-color: #eeeeee;
 }
+
+
+/* --------------footer---------------- */
+
+
 footer{
   background-color: #d6d6d6;
   height: 25vh;
   font-size: 19px;
   font-family: roboto;
-  margin-top: 70vh;
+  margin-top: 6vh;
+  /* margin-top: 70vh; */
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
 .logovlak{
-  width: 6%;
-  padding-top: 6%;
-  background-color: red;
-  margin-top: 65vh;
+  width: 7%;
+  padding-top: 7%;
+  background-color: black;
+  /* margin-top: 65vh; */
   margin-left: 10vh;
   position: absolute;
-  margin-top: -25vh;
-<<<<<<< HEAD
-  margin-left:
-=======
->>>>>>> 3749b46c94dd02e4e588a7452e1e24665954f36b
+  /* margin-top: 64vh; */
+  margin-top: 0vh;
+  /* margin-bottom: 7vh; */
+}
+.footer_text_1{
+  padding-left: 5.5%;
+  margin-top: 7vh;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  /* font-style: "roboto": bold; */
+}
+.footer_text_2{
+  margin-left: 60%;
+  margin-top: -3%;
+  padding-top: 1%;
+}
+.footer_text_3{
+  margin-left: 80%;
+  margin-top: -9%;
+  padding-top: 1%;
+  margin-bottom: 6%;
 }
