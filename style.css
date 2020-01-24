@@ -100,7 +100,7 @@ li {
   float: left;
 }
 
-li .niet_foeter {
+li .niet_footer {
   display: block;
   color: black;
   text-align: center;
@@ -110,7 +110,7 @@ li .niet_foeter {
   font-weight: 400;
 }
 
-li .niet_foeter:hover {
+li .niet_footer:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
