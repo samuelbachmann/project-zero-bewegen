@@ -100,9 +100,9 @@ li {
   float: left;
 }
 
-li .niet_footer {
+li .navbar {
   display: block;
-  color: black;
+  color: rgb(160, 140, 140);
   text-align: center;
   padding: 28px 28px;
   text-decoration: none;
@@ -110,7 +110,7 @@ li .niet_footer {
   font-weight: 400;
 }
 
-li .niet_footer:hover {
+li .navbar:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
@@ -172,10 +172,6 @@ footer{
   margin-bottom: 6%;
   /* margin-top: -25vh; */
 }
-
-
-
-
 
 .container {
   color: white;
@@ -243,19 +239,6 @@ footer{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* .oosterparkfoto{
