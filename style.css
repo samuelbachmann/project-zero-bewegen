@@ -173,7 +173,8 @@ footer{
   bottom: 0;
   left: 8.9%;
   right: 0;
-  background-color: #EEE;
+  background-color: gray;
+  opacity: 0.7;
   overflow: hidden;
   width: 63.1%;
   height: 0;
@@ -200,6 +201,11 @@ footer{
 
 
 .buttonvoormap{
+  line-height: 6vh;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
   text-align: center;
   text-decoration: none;
   background-color: #CAF1D3;
