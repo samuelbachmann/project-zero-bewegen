@@ -128,8 +128,8 @@ footer{
   font-family: roboto;
   margin-top: 6vh;
   /* margin-top: 70vh; */
-
 }
+
 .logovlak{
   width: 7%;
   padding-top: 7%;
@@ -141,6 +141,7 @@ footer{
   margin-top: 0vh;
   /* margin-bottom: 7vh; */
 }
+
 .footer_text_1{
   padding-left: 5.5%;
   margin-top: 7vh;
@@ -149,11 +150,13 @@ footer{
   color: black;
   /* font-style: "roboto": bold; */
 }
+
 .footer_text_2{
   margin-left: 60%;
   margin-top: -3%;
   padding-top: 1%;
 }
+
 .footer_text_3{
   margin-left: 80%;
   margin-top: -9%;
@@ -161,10 +164,6 @@ footer{
   margin-bottom: 6%;
   /* margin-top: -25vh; */
 }
-
-
-
-
 
 .container {
   color: white;
@@ -291,7 +290,7 @@ li .knop{
   color: rgb(160, 140, 140);
   text-align: center;
   padding: 28px 28px;
-  text-decoration: none;
+  list-style-type: none;
   font-family: "Roboto";
   font-weight: 400;
 }
