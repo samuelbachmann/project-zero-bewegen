@@ -29,7 +29,6 @@ header{
 /* -------teksten------- */
 
 h1{
-  position: absolute;
   font-family: roboto;
   font-size: 100px;
   padding-left: 9%;
@@ -67,16 +66,6 @@ article{
   padding-left: 33%;
   line-height: 40px;
 }
-
-h3{
-  font-family: roboto;
-  font-size: 70px;
-  position: absolute;
-  margin-left: 37%;
-  margin-top: 15vh;
-}
-
-
 
 /*------- navbar ---------*/
 
@@ -240,14 +229,46 @@ footer{
   text-align: center;
 }
 
+/* -------opdracht------- */
 
-/* .oosterparkfoto{
-  padding-top: 35vh;
-  padding-left: 5.5%;
-
+.opdracht1{
+  width: 300px;
+  height: 350px;
+  background: #EEEEEE;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+ 
+.opdracht1 h1{
+  padding-top: 2vh;
+  padding-left: 25%;
+  font-size: 30px;
 }
 
-.amstelparkfoto{
-  padding-top: 35vh;
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a{
+  text-decoration: none;
+}
+
+li .knop{
+  display: block;
+  color: rgb(160, 140, 140);
+  text-align: center;
+  padding: 28px 28px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.knop{
+  margin-top: 20vh;
+  padding-left: 20%;
+}
+
+#p-test{
   padding-left: 10%;
-} */
+}
