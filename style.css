@@ -5,16 +5,30 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 body{
   overflow-x: hidden;
+
 }
 
-header{
+
+.indexheader, .locatieheader, .lessenheader{
   width: 100%;
   height: 100vh;
   background-color: #CAF1D3;
+}
+
+
+.contactheader{
+  width: 100%;
+
+}
+
+section{
+  width: 100%;
+  height: 100vh;
 }
 
 .teksten{
@@ -108,6 +122,7 @@ li .navbar {
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 400;
+  cursor: url('oosterparkfoto.jpg'), auto;
 }
 
 li .navbar:hover {
@@ -245,6 +260,7 @@ footer{
 }
 
 .contactinfo{
+  padding-top: 17vh;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -255,13 +271,13 @@ footer{
 }
 
 .object1{
-  background-color: gray;
+  background-color: #EFEFEF;
   width: 45%;
   height: 90%;
 }
 
 .object2{
-  background-color: blue;
+  background-color: #EFEFEF;
   width: 45%;
   height: 90%;
 }
@@ -275,3 +291,16 @@ footer{
   padding-top: 35vh;
   padding-left: 10%;
 } */
+.buttonformsubmit{
+  border-radius: 6px;
+  line-height: 6vh;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: #CAF1D3;
+  height: 6vh;
+  width: 20%;
+}
