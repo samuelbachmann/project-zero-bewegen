@@ -5,16 +5,30 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 body{
   overflow-x: hidden;
+
 }
 
-header{
+
+.indexheader, .locatieheader, .lessenheader{
   width: 100%;
   height: 100vh;
   background-color: #CAF1D3;
+}
+
+
+.contactheader{
+  width: 100%;
+
+}
+
+section{
+  width: 100%;
+  height: 100vh;
 }
 
 .teksten{
@@ -29,7 +43,6 @@ header{
 /* -------teksten------- */
 
 h1{
-  position: absolute;
   font-family: roboto;
   font-size: 100px;
   padding-left: 9%;
@@ -68,16 +81,6 @@ article{
   line-height: 40px;
 }
 
-h3{
-  font-family: roboto;
-  font-size: 70px;
-  position: absolute;
-  margin-left: 37%;
-  margin-top: 15vh;
-}
-
-
-
 /*------- navbar ---------*/
 
 .logo{
@@ -100,7 +103,7 @@ li {
   float: left;
 }
 
-li .niet_footer {
+li .navbar {
   display: block;
   color: black;
   text-align: center;
@@ -108,9 +111,10 @@ li .niet_footer {
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 400;
+  cursor: url('oosterparkfoto.jpg'), auto;
 }
 
-li .niet_footer:hover {
+li .navbar:hover {
   background-color: #CAF1D3;
   transition: 0.3s;
 }
@@ -144,8 +148,8 @@ footer{
   padding-top: 2%;
   flex-wrap: wrap;
   /* margin-top: 70vh; */
-
 }
+
 .logovlak{
   width: 7%;
   padding-top: 7%;
@@ -154,6 +158,7 @@ footer{
   position: absolute;
 
 }
+
 .footer_text_1{
   padding-top: 1%;
   /* padding-left: 5.5%;
@@ -162,6 +167,7 @@ footer{
   text-decoration: none;
   color: black;
 }
+
 .footer_text_2{
   /* margin-left: 60%; */
   /* margin-top: -3%; */
@@ -170,6 +176,7 @@ footer{
 
 
 }
+
 .footer_text_3{
   /* margin-left: 80%; */
   /* margin-top: -9%; */
@@ -181,11 +188,15 @@ footer{
   margin-left: -113%;
 }
 
+<<<<<<< HEAD
 
 
 /* --------------------overlay------------------ */
 
+=======
+>>>>>>> 1e2d94aa445f59ba0ea89e5d97fe5b37c5aa0c70
 .container {
+  color: white;
   padding-top: 35vh;
   padding-left: 5.5%;
   position: relative;
@@ -204,7 +215,7 @@ footer{
   left: 8.9%;
   right: 0;
   background-color: gray;
-  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.3);
   overflow: hidden;
   width: 63.1%;
   height: 0;
@@ -216,7 +227,7 @@ footer{
 }
 
 .text {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 35px;
   font-family: roboto;
@@ -231,6 +242,7 @@ footer{
 
 
 .buttonvoormap{
+  border-radius: 6px;
   line-height: 6vh;
   font-family: roboto;
   font-weight: bold;
@@ -253,24 +265,85 @@ footer{
 
 
 
+.contactinfo{
+  padding-top: 17vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  /* margin-top: 9%; */
 
+}
 
+.object1{
+  background-color: #EFEFEF;
+  width: 45%;
+  height: 90%;
+}
 
-
-
-
-
-
-
-
-
+.object2{
+  background-color: #EFEFEF;
+  width: 45%;
+  height: 90%;
+}
 /* .oosterparkfoto{
   padding-top: 35vh;
   padding-left: 5.5%;
 
+/* -------opdracht------- */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.amstelparkfoto{
-  padding-top: 35vh;
+.opdracht1{
+  width: 300px;
+  height: 350px;
+  background: #EEEEEE;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.opdracht1 h1{
+  padding-top: 2vh;
+  padding-left: 25%;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li .knop{
+  display: block;
+  color: rgb(160, 140, 140);
+  text-align: center;
+  padding: 28px 28px;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.knop{
+  margin-top: 20vh;
+  padding-left: 20%;
+}
+
+#p-test{
   padding-left: 10%;
 } */
+.buttonformsubmit{
+  border-radius: 6px;
+  line-height: 6vh;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: #CAF1D3;
+  height: 6vh;
+  width: 20%;
+}
