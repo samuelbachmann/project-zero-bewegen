@@ -76,7 +76,7 @@ article{
   padding-left: 30px;
 }
 
-ul {
+nav ul{
   list-style-type: none;
   overflow: hidden;
   background-color: #EEEEEE;
@@ -97,6 +97,10 @@ li .navbar {
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 400;
+}
+
+.locatie_nav{
+  background-color: #CAF1D3;
 }
 
 li .navbar:hover {
@@ -295,11 +299,16 @@ li .knop{
   font-weight: 400;
 }
 
-.knop{
-  margin-top: 20vh;
-  padding-left: 20%;
-}
-
 #p-test{
   padding-left: 10%;
+}
+
+.opdracht1 ul{
+  list-style-type: none;
+  background-color: #CAF1D3;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 20vh;
+  padding-left: 30%;
 }
