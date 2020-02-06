@@ -172,30 +172,23 @@ footer{
   color: black;
 }
 
-.footer_text_2{
-  /* margin-left: 60%; */
-  /* margin-top: -3%; */
-  /* padding-top: 1%; */
+/* .footer_text_2{
+  margin-left: 60%;
+  margin-top: -3%;
+  padding-top: 1%;
   line-height: 0.75;
-
-
 }
 
 .footer_text_3{
-  /* margin-left: 80%; */
-  /* margin-top: -9%; */
-  /* padding-top: 1%; */
-  /* margin-bottom: 6%; */
-}
+  margin-left: 80%;
+  margin-top: -9%;
+  padding-top: 1%;
+  margin-bottom: 6%;
+} */
 .footer_text_4{
   margin-top: 10%;
   margin-left: -113%;
 }
-
-
-
-
-/* --------------------overlay------------------ */
 
 
 .container {
@@ -243,7 +236,6 @@ footer{
   text-align: center;
 }
 
-
 .buttonvoormap{
   border-radius: 6px;
   line-height: 6vh;
@@ -264,9 +256,6 @@ footer{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-
 
 .contactinfo{
   padding-top: 17vh;
