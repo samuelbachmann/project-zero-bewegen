@@ -318,17 +318,19 @@ li .knop{
 
 #p-test{
   padding-left: 10%;
-} */
+}
+
 .buttonformsubmit{
-  border-radius: 6px;
-  line-height: 6vh;
-  font-family: roboto;
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
+  background-color: #CAF1D3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  background-color: #CAF1D3;
-  height: 6vh;
-  width: 20%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Bericht{
+  height: 50px;
 }
