@@ -346,3 +346,60 @@ li .knop{
   margin-top: 20vh;
   padding-left: 30%;
 }
+
+form{
+  font-family: roboto;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  height: 85%;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contactus{
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Emailadres, .bericht{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bericht{
+  height: 40%;
+}
+
+.object1contact{
+  font-family: roboto;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  height: 100%;
+}
+
+.infoovercontact{
+   margin-top: 10px;
+   line-height: 1.6;
+}
+
+
+::placeholder{
+  font-family: roboto;
+}
