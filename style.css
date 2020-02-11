@@ -136,7 +136,7 @@ li .navbar:hover {
 .home{
   background-color: #eeeeee;
 }
-  
+
 /* --------------footer---------------- */
 
 footer{
@@ -155,11 +155,20 @@ footer{
 
 .logovlak{
   width: 7%;
-  padding-top: 7%;
-  background-color: black;
+  /* padding-top: 7%; */
+  background-color: gray;
   margin-left: 10vh;
   position: absolute;
+  padding-bottom: 0vh;
 
+}
+.logovlak_2{
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 12vh;
+  margin-bottom: 10%;
+  background-color: white;
 }
 
 .footer_text_1{
