@@ -136,8 +136,7 @@ li .navbar:hover {
 .home{
   background-color: #eeeeee;
 }
-
-
+  
 /* --------------footer---------------- */
 
 footer{
@@ -189,6 +188,7 @@ footer{
   margin-top: 10%;
   margin-left: -113%;
 }
+
 
 .container {
   color: white;
