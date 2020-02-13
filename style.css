@@ -32,7 +32,7 @@ section{
 .teksten{
   padding-left: 10%;
   padding-top: 35vh;
-  padding-bottom: 20vh;
+  padding-bottom: 28vh;
 }
 
 /* -------teksten------- */
@@ -105,7 +105,7 @@ li .navbar {
   padding: 28px 28px;
   text-decoration: none;
   font-family: "Roboto";
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 .locatie_nav{
