@@ -16,7 +16,7 @@ body{
 
 .indexheader, .locatieheader, .lessenheader{
   width: 100%;
-  height: 100vh;
+  /* height: 105vh; */
   background-color: #CAF1D3;
 }
 
@@ -34,6 +34,7 @@ section{
 .teksten{
   padding-left: 10%;
   padding-top: 35vh;
+  padding-bottom: 20vh;
 }
 
 .teksten h2{
@@ -78,7 +79,7 @@ article{
 
 .infotekst{
   padding-left: 33%;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 /*------- navbar ---------*/
@@ -141,10 +142,10 @@ li .navbar:hover {
 
 footer{
   background-color: #ccc;
-  height: 25vh;
+  height: 23vh;
   font-size: 19px;
   font-family: "Roboto";
-  margin-top: 7vh;
+  margin-top: 8vh;
   display: flex;
   justify-content: space-evenly;
   /* align-items: */
@@ -180,22 +181,14 @@ footer{
   color: black;
 }
 
-/* .footer_text_2{
-  margin-left: 60%;
-  margin-top: -3%;
-  padding-top: 1%;
-  line-height: 0.75;
+ .footer_text_2{
+   line-height: 15px;
+   margin-top: 4vh;
 }
 
-.footer_text_3{
-  margin-left: 80%;
-  margin-top: -9%;
-  padding-top: 1%;
-  margin-bottom: 6%;
-} */
 .footer_text_4{
   margin-top: 10%;
-  margin-left: -113%;
+  margin-left: -125%;
 }
 
 
