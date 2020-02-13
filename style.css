@@ -13,13 +13,11 @@ body{
 
 }
 
-
 .indexheader, .locatieheader, .lessenheader{
   width: 100%;
   /* height: 105vh; */
   background-color: #CAF1D3;
 }
-
 
 .contactheader{
   width: 100%;
@@ -35,10 +33,6 @@ section{
   padding-left: 10%;
   padding-top: 35vh;
   padding-bottom: 20vh;
-}
-
-.teksten h2{
-  margin-top: 5%;
 }
 
 /* -------teksten------- */
@@ -111,8 +105,7 @@ li .navbar {
   padding: 28px 28px;
   text-decoration: none;
   font-family: "Roboto";
-  font-weight: 400;
-  cursor: url('oosterparkfoto.jpg'), auto;
+  font-weight: 400; 
 }
 
 .locatie_nav{
