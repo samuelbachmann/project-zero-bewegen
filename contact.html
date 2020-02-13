@@ -14,20 +14,34 @@
               <li><a class="navbar" href="lessen.html">opdrachten</a></li>
               <li><a class="navbar" href="locatie.html">locaties</a></li>
               <li class="locatie_nav"><a class="navbar" href="contact.html">Contact</a></li>
-    
+
           </ul>
         </nav>
     </header>
     <section>
       <div class="contactinfo">
-        <div class="object1"></div>
+        <div class="object1">
+          <div class="object1contact">
+              <h6 class="contactus">CONTACT US:</h6>
+              <p class="infoovercontact">
+                NAAM: Piet Verkoe <br>
+                TELEFOON: 06838373 <br>
+                E-MAIL: pietverkoe@verkoe.nl <br>
+                ADRES: Koelaan 9, Amsterdam, Nederland <br>
+                LEEFTIJD: 56 <br>
+              </p>
+          </div>
+        </div>
         <div class="object2">
-          <form action="https://formspree.io/meqggwqz" method="POST">
-            <label for="naam">Bericht</label>
-            <input class="bericht" type="text" name="name">
-            <label class="Emailadres" for="email">E-Mail adres:</label>
-            <input type="email" name="_replyto">
-            <input class="buttonformsubmit" type="submit" value="Send">
+          <form method="POST" action="https://formspree.io/meqggwqz">
+            <h6 class="contactus">CONTACT US:</h6>
+            <label for="naam">NAAM: </label>
+            <input placeholder="Name: "type="email" name="_name">
+            <label class="Emailadres" for="email">E-MAIL ADRES:</label>
+            <input placeholder="E-Mail: "type="email" name="_replyto">
+            <label for="naam">BERICHT</label>
+            <textarea placeholder="Bericht: " class="bericht" type="textareas" name="message"></textarea>
+            <input class="buttonformsubmit" type="submit" value="send">
           </form>
         </div>
       </div>

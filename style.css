@@ -129,7 +129,7 @@ li .navbar:hover {
 .home{
   background-color: #eeeeee;
 }
-  
+
 /* --------------footer---------------- */
 
 footer{
@@ -148,11 +148,20 @@ footer{
 
 .logovlak{
   width: 7%;
-  padding-top: 7%;
-  background-color: black;
+  /* padding-top: 7%; */
+  background-color: gray;
   margin-left: 10vh;
   position: absolute;
+  padding-bottom: 0vh;
 
+}
+.logovlak_2{
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 12vh;
+  margin-bottom: 10%;
+  background-color: white;
 }
 
 .footer_text_1{
@@ -337,4 +346,61 @@ li .knop{
   height: 100px;
   margin-top: 20vh;
   padding-left: 30%;
+}
+
+form{
+  font-family: roboto;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  height: 85%;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contactus{
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Emailadres, .bericht{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bericht{
+  height: 40%;
+}
+
+.object1contact{
+  font-family: roboto;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  height: 100%;
+}
+
+.infoovercontact{
+   margin-top: 10px;
+   line-height: 1.6;
+}
+
+
+::placeholder{
+  font-family: roboto;
 }
